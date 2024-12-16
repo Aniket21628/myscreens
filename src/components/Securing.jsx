@@ -1,23 +1,23 @@
 export default function Securing(){
     return(
-        <div className="w-full h-full bg-gray-50">
-      <div className="mx-[205px] mt-[150px] ">
-        <div className="grid grid-cols-2 gap-[126px]">
-            <h1 className="font-montserrat font-bold text-custom-60 leading-custom-73 text-[#2E2F2E]">
+        <div className=" w-full h-full bg-[#FFFEFE] mx-auto">
+      <div className="mt-[150px]">
+        <div className="grid grid-cols-12 gap-[32px]">
+            <h1 className="col-span-5 font-montserrat font-bold  text-custom-60 leading-custom-73 text-[#2E2F2E]">
               Securing the Future,<br />
               <span className="text-[#FF6812]">Globally</span>
             </h1>
-          <p className="text-[#888987] font-semibold font-nunito text-custom-24 leading-custom-30">
+            <div className="col-span-1"></div>
+          <p className="text-[#888987] col-span-6 font-semibold font-nunito text-custom-24 leading-custom-30">
             Founded in 2020 in Chennai, SafeMax Security is committed to
             empowering businesses by building resilient digital infrastructures.
             With a focus on precision, proactive threat hunting, and adaptive
             security measures, we safeguard sensitive data and critical systems
             against ever-evolving cyber threats.
           </p>     
-      </div>      
-    
-      <div className="grid grid-cols-12 gap-[32px] mt-[100px]">
-        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30 w-[482px] h-[484px] p-[30px] flex flex-col justify-between text-white">
+      </div> 
+                          <div className="grid grid-cols-12 gap-[32px] mt-[100px]">
+        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30  p-[30px] flex flex-col justify-between text-white">
           <div>
             <h2 className="text-[#FCF7F0] text-custom-50 leading-custom-60 font-montserrat font-semibold">500,000+</h2>
             <p className="text-[#888987] font-semibold text-custom-36 mt-[15px] font-nunito leading-custom-49">hours of annual threat monitoring</p>
@@ -47,7 +47,7 @@ export default function Securing(){
           </div>
         </div>
 
-        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30 w-[482px] h-[484px] p-[30px] flex flex-col justify-between text-white">
+        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30 p-[30px] flex flex-col justify-between text-white">
           <div>
             <h2 className="text-[#FCF7F0] text-custom-50 leading-custom-60 font-montserrat font-semibold">1 million+</h2>
             <p className="text-[#888987] font-semibold text-custom-36 font-nunito leading-custom-49 mt-[15px]">secured endpoints</p>
@@ -81,7 +81,7 @@ export default function Securing(){
           </div>
         </div>
 
-        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30 w-[482px] h-[484px] p-[30px] flex flex-col justify-between text-white">
+        <div className="bg-[#2e2f2e] col-span-4 rounded-custom-30  p-[30px] flex flex-col justify-between text-white">
           <div>
             <h2 className="text-[#FCF7F0] text-custom-50 leading-custom-60 font-montserrat font-semibold ">200+</h2>
             <p className="text-[#888987] font-semibold text-custom-36 font-nunito mt-[15px] leading-custom-49">trusted clients worldwide</p>
